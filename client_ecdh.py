@@ -3,7 +3,6 @@ from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from cryptography.hazmat.primitives import hashes
-import os
 
 def generate_key_pair():
     """
@@ -55,7 +54,6 @@ def serialize_public_key(public_key):
         encoding=serialization.Encoding.PEM,
         format=serialization.PublicFormat.SubjectPublicKeyInfo
     )
-
 
 def start_client():
     """
