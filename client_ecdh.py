@@ -5,7 +5,6 @@ from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from cryptography.hazmat.primitives import hashes
 import os
 
-
 def generate_key_pair():
     """
     Generate an elliptic curve key pair (private and public keys).
