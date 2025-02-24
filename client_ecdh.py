@@ -55,6 +55,7 @@ def serialize_public_key(public_key):
         format=serialization.PublicFormat.SubjectPublicKeyInfo
     )
 
+
 def start_client():
     """
     Start the client that connects to the server, performs the
